@@ -1,4 +1,25 @@
-// Write your code here
+//Create the Product Inventory Array
+const products = ["Laptop", "Phone", "Headphones", "Monitor"];
+
+//Access Product Information
+function logFirstProduct() {
+    console.log(products[0]);
+}
+
+//Add a Product
+function addProduct(productName) {
+    products.push(productName);
+}
+
+//Update Product Information
+function updateProductName(position, newName) {
+    products[position] = newName;
+}
+
+//Remove a Product
+function removeLastProduct() {
+    products.pop();
+}
 
 
 
